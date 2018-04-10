@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data=np.loadtxt("datos2.txt")
-h=0.01
+h=0.001
 N=10/h
 x=np.linspace(0,10,N)
 y=np.cos(x)

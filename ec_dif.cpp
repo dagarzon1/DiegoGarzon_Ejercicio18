@@ -24,7 +24,7 @@ int main(int argc, char ** argv)
 }
 void primer_orden(double * y, int a, int b, double in)
 {
-	double h=0.01;
+	double h=0.001;
 	int N=(b-a)/h;
 	double x=a;
 	y= new double[N];
@@ -39,7 +39,7 @@ void primer_orden(double * y, int a, int b, double in)
 }
 void segundo_orden(double * y, int a, int b, double in, double in_d)
 {
-	double h=0.01;
+	double h=0.001;
 	int N=(b-a)/h;
 	double x=a;
 	double * z=new double[N];
